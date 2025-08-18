@@ -1,0 +1,20 @@
+body{
+  background-image: url('i.jpg');
+}
+.buttones{
+  border-radius: 50px;
+  background-color: #000000;
+  border: 2px solid #ffffff;
+  padding: 30px 60px;
+  border: none;
+  cursor: pointer;
+}
+.buttonesb{
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 30px 60px;
+  color: ;
+  border: none;
+  cursor: pointer;
+}

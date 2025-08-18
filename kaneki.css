@@ -1,0 +1,12 @@
+body{
+  background-image: url('596893.jpg');
+}
+.buttones{
+  border-radius: 50px;
+  background-color: #000000;
+  color: #fff;
+  padding: 100px 200px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
