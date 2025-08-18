@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Profissional</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; background: #f4f4f4;}
+        header {background: #222; color: #fff; padding: 40px 0; text-align: center;}
+        nav {background: #444; text-align: center;}
+        nav a {color: #fff; padding: 14px 20px; display: inline-block; text-decoration: none;}
+        nav a:hover {background: #333;}
+        section {max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px;}
+        h2 {color: #222;}
+        .perfil {text-align: center;}
+        .perfil img {width: 120px; border-radius: 50%;}
+        .projetos {display: grid; grid-template-columns: 1fr 1fr; gap: 20px;}
+        .projeto {background: #eee; padding: 20px; border-radius: 8px;}
+        .contato {text-align: center;}
+        @media (max-width: 600px) {
+            .projetos {grid-template-columns: 1fr;}
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wallisson</h1>
+        <p>técnico em informática</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <div class="perfil">
+            <img src="/foto.png" alt="Sua Foto">
+            <hr>
+            <p>
+                Sou um profissional apaixonado por tecnologia, com experiência em programação. 
+                Tenho habilidades em php, html, css, e estou sempre buscando novos desafios.
+            </p>
+        </div>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projetos">
+            <div class="projeto">
+                <h3>Projeto 1</h3>
+                <p>Descrição ;-;</p>
+                <a href="teste.html">Ver Projeto</a>
+            </div>
+            <div class="projeto">
+                <h3>Projeto 2</h3>
+                <p>Descrição ;-;</p>
+                <a href="#">Ver Projeto</a>
+            </div>
+            <!-- Adicione mais projetos conforme necessário -->
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <div class="contato">
+            <p>Email: <a href="mailto:wallissong063@gmail.com">wallissong063@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/wallisson-gon%C3%A7alves-3b4845374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">wallisson Gonçalves Lemos</a></p>
+            <p>GitHub: <a href="https://github.com/wallissong063" target="_blank">@wallissong063</a></p>
+          <p>Instagram: <a href="https://www.instagram.com/wallisson.gl?igsh=bzN4NjkzbzRsc2Rs" target="_blank">@wallisson.gl</a></p>
+        </div>
+    </section>
+</body>
+</html>
