@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Profissional</title>
     <style>
-        body {font-family: Arial, sans-serif; margin: 0; background: #f4f4f4;}
+        body {font-family: Arial, sans-serif; margin: 0; background: #222;}
         header {background: #222; color: #fff; padding: 40px 0; text-align: center;}
         nav {background: #444; text-align: center;}
         nav a {color: #fff; padding: 14px 20px; display: inline-block; text-decoration: none;}
         nav a:hover {background: #333;}
-        section {max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px;}
-        h2 {color: #222;}
+        section { color:#fff; max-width: 900px; margin: 40px auto; background: #111; padding: 30px; border-radius: 8px;}
+        h2 {color: #fff;}
         .perfil {text-align: center;}
         .perfil img {width: 120px; border-radius: 50%;}
         .projetos {display: grid; grid-template-columns: 1fr 1fr; gap: 20px;}
-        .projeto {background: #eee; padding: 20px; border-radius: 8px;}
+        .projeto {background: #222; padding: 20px; border-radius: 8px;
+        box-shadow:5px 5px 5px 5px blue;}
         .contato {text-align: center;}
         @media (max-width: 600px) {
             .projetos {grid-template-columns: 1fr;}
@@ -34,17 +35,17 @@
     </nav>
     <section id="sobre">
         <div class="perfil">
-        <div style="float: left; height: 100%; border-right: 1px solid black;">
+        <div style="display: flex; height: 100%; border-right: 1px solid black;">
           
             <img src="/foto.png" alt="Sua Foto">
-        </div>
         
-        <h2>Sobre Mim</h2>
         <div>
+        <h2>Sobre Mim</h2>
             <p>
                 Sou um profissional apaixonado por tecnologia, com experiência em programação. 
                 Tenho habilidades em php, html, css, e estou sempre buscando novos desafios.
             </p>
+        </div>
         </div>
         </div>
     </section>
